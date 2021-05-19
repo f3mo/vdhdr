@@ -1,8 +1,8 @@
 # vdhdr
-The vdhdr  determines the type of image contained in a file or byte stream.
+The vdhdr  determines the type of image contained in a file or byte stream. It's based on python's imghdr
 
 | formas|
-|_____  |
+|---|
 | 'mp4' |
 | 'wmv' |
 | 'mov' |
@@ -11,9 +11,9 @@ The vdhdr  determines the type of image contained in a file or byte stream.
 | 'avi' |
 | 'flv' |
 
-`
+```python
 import vdhdr
 vdhdr.what('test.flv')
 
 'flv'
-`
+```
